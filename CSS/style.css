@@ -322,11 +322,12 @@ body {
 
 /* Product Section */
 .product .row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
+
 .product .product-icons {
   display: flex;
   justify-content: center;
@@ -365,7 +366,7 @@ body {
   fill: var(--primary);
 }
 .product-price {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .product-price span {
@@ -376,7 +377,7 @@ body {
 }
 .product .product-card {
   text-align: center;
-  border: 1px solid #666;
+  border: 5px solid #666;
   padding: 2rem;
 }
 
@@ -411,7 +412,7 @@ body {
 .contact .row form .input-grup input {
   width: 100%;
   padding: 2rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   background: none;
   color: #fff;
 }
@@ -635,3 +636,4 @@ footer .credit a {
     font-size: 55%;
   }
 }
+  
